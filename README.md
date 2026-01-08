@@ -10,20 +10,20 @@ The Konsole theme is the official [Nord Konsole](https://github.com/nordtheme/ko
 
 i am planning to automate installation of the rice but until I figure that out here's manual installation instructions:
 
-# Installation/Usage
+## Installation/Usage
 
 1. Download or git clone this repo anywhere. Download link: [here](https://github.com/EJSnow/dotfiles/archive/refs/heads/main.zip)
 
 2. Install dependencies (KWin scripts/desktop effects/cursor theme) (A functional KDE Plasma installation is assumed):
 
 ```
-yay -S --needed kwin-effects-forceblur kwin-scripts-krohnkite kwin-effects-geometry-change bibata-cursor-theme btop fastfetch starship blesh-git
+yay -S --needed kwin-scripts-forceblur kwin-scripts-krohnkite kwin-effects-geometry-change bibata-cursor-theme btop fastfetch starship blesh-git
 ```
 
-3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files.
+3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files. NOTE: This folder might appear to be empty, that's because all the files in it are hidden. Press Ctrl+H in your file manager to show hidden files or on the command line, `ls -a` will show hidden files.
 
 4. Copy everything inside the `root` folder to the system root (`/`). If asked, merge/overwrite existing folders/files. Obviously root privileges are needed.
 
 5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart).
 
-That's it!
+That's it! Enjoy your rice, and remember to check the [Krohnkite docs](https://codeberg.org/anametologin/Krohnkite#settings). (Very helpful!)
