@@ -1,0 +1,7 @@
+[Common]
+ShadowSize=ShadowMedium
+
+[Style]
+MenuOpacity=80
+ScrollBarAddLineButtons=1
+ScrollBarSubLineButtons=1

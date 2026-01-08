@@ -1,0 +1,48 @@
+MenuBar=Disabled
+
+[CompactMode]
+IconSize=32
+PreviewSize=32
+
+[ContentDisplay]
+ElidingMode=Right
+
+[DetailsMode]
+ExpandableFolders=false
+PreviewSize=16
+
+[General]
+BrowseThroughArchives=true
+DoubleClickViewAction=none
+DynamicView=true
+GlobalViewProps=false
+RememberOpenedTabs=false
+ShowSelectionToggle=false
+ShowStatusBar=FullWidth
+Version=202
+ViewPropsTimestamp=2025,8,18,17,55,23.873
+
+[IconsMode]
+IconSize=64
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
+[PlacesPanel]
+IconSize=16
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[VersionControl]
+enabledPlugins=Git
+
+[ViewPropertiesDialog]
+1536x864 screen: Height=464
+1536x864 screen: Width=379
+1600x900 screen: Height=462
+1600x900 screen: Width=379

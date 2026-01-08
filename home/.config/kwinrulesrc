@@ -1,0 +1,26 @@
+[76a29218-a8d3-4901-81fe-73cddf8dcaf4]
+Description=BetterBlur
+opacityactive=85
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+types=1
+wmclass=^(systemsettings|modrinth-app|org.kde.dolphin|org.kde.kwrite|spotify|kcm_kwinrules|kcm_klassydecoration|klassystyleconfig|org.kde.ghostwriter|discord|org.kde.kate|org.kde.plasma-systemmonitor|org.kde.filelight|timeshift-gtk)
+wmclassmatch=3
+
+[General]
+count=3
+rules=b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5,76a29218-a8d3-4901-81fe-73cddf8dcaf4,ce8b3626-27fb-4032-877b-c16d0e12e981
+
+[b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5]
+Description=PiP fix for Wayland
+above=true
+aboverule=2
+types=1
+wmclass=Picture-in-Picture
+wmclassmatch=1
+
+[ce8b3626-27fb-4032-877b-c16d0e12e981]
+Description=Override minimum size for Kronkite
+minsizerule=2
+types=1

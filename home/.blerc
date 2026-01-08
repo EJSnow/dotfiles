@@ -1,0 +1,4 @@
+bleopt complete_auto_complete=
+bleopt highlight_syntax=
+bleopt highlight_filename=
+bleopt highlight_variable=
