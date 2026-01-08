@@ -12,24 +12,18 @@ i am planning to automate installation of the rice but until I figure that out h
 
 # Installation/Usage
 
-Download or git clone this repo anywhere. Download link: [here](https://github.com/EJSnow/dotfiles/archive/refs/heads/main.zip)
+1. Download or git clone this repo anywhere. Download link: [here](https://github.com/EJSnow/dotfiles/archive/refs/heads/main.zip)
 
-Install dependencies (KWin scripts/desktop effects/cursor theme) (A functional KDE Plasma installation is assumed):
+2. Install dependencies (KWin scripts/desktop effects/cursor theme) (A functional KDE Plasma installation is assumed):
 
 ```
 yay -S --needed kwin-effects-forceblur kwin-scripts-krohnkite kwin-effects-geometry-change bibata-cursor-theme btop fastfetch starship blesh-git
 ```
 
-Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files.
+3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files.
 
-Copy everything inside the `root` folder to the system root (`/`). If asked, merge/overwrite existing folders/files. Obviously root privileges are needed.
+4. Copy everything inside the `root` folder to the system root (`/`). If asked, merge/overwrite existing folders/files. Obviously root privileges are needed.
 
-Open System Settings, go to `Colors & Themes/Login Screen (SDDM)` and click `Apply Plasma Settings...`. Then click `Apply` and enter your password.
-
-Go to `Window Management/Desktop Effects` in System Settings, make sure `Better Blur` and `Geometry Change` are enabled and the default `Blur` effect is disabled.
-
-Go to `Window Management/KWin Scripts` in System Settings, and make sure `Krohnkite` is enabled.
-
-Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart).
+5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart).
 
 That's it!
