@@ -5,7 +5,7 @@ opacityactiverule=2
 opacityinactive=80
 opacityinactiverule=2
 types=1
-wmclass=^(systemsettings|modrinth-app|org.kde.dolphin|org.kde.kwrite|spotify|kcm_kwinrules|kcm_klassydecoration|klassystyleconfig|org.kde.ghostwriter|discord|org.kde.kate|org.kde.plasma-systemmonitor|org.kde.filelight|timeshift-gtk)
+wmclass=^(systemsettings|modrinth-app|org.kde.dolphin|org.kde.kwrite|spotify|kcm_kwinrules|kcm_klassydecoration|klassystyleconfig|org.kde.ghostwriter|discord|org.kde.kate|org.kde.plasma-systemmonitor|org.kde.filelight|steam$|org.kde.kmenuedit|goverlay|org.kde.ktorrent|org.freedesktop.impl.portal.desktop.kde|org.kde.polkit-kde-authentication-agent-1|org.kde.kdialog|VirtualBox Manager|VirtualBox$|org.kde.partitionmanager|timeshift-gtk)
 wmclassmatch=3
 
 [General]

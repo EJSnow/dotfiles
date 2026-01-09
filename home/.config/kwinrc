@@ -5,7 +5,7 @@ BlurMenus=true
 BlurStrength=4
 NoiseStrength=0
 TransparentBlur=false
-WindowClasses=systemsettings\nmodrinth-app\norg.kde.dolphin\norg.kde.kwrite\nspotify\nkcm_kwinrules\nkcm_klassydecoration\nklassystyleconfig\norg.kde.ghostwriter\ndiscord\norg.kde.kate\norg.kde.plasma-systemmonitor\norg.kde.filelight\ntimeshift-gtk
+WindowClasses=systemsettings\nmodrinth-app\norg.kde.dolphin\norg.kde.kwrite\nspotify\nkcm_kwinrules\nkcm_klassydecoration\nklassystyleconfig\norg.kde.ghostwriter\ndiscord\norg.kde.kate\norg.kde.plasma-systemmonitor\nsteam\norg.kde.kmenuedit\ngoverlay\norg.kde.ktorrent\norg.kde.filelight\norg.freedesktop.impl.portal.desktop.kde\norg.kde.polkit-kde-authentication-agent-1\norg.kde.kdialog\nVirtualBox Manager\nVirtualBox\norg.kde.partitionmanager\ntimeshift-gtk
 
 [Effect-glide]
 Duration=300
