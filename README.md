@@ -26,6 +26,6 @@ Note: kwin-effects-forceblur is currently unmaintained, but still works on Plasm
 
 4. Copy everything inside the `root` folder to the system root (`/`). If asked, merge/overwrite existing folders/files. Obviously root privileges are needed.
 
-5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart).
+5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart). After restarting, go to `Colors and Themes/Colors` in System Settings and select `Nord Dark` and apply. Then go to `Colors and Themes/Login Screen (SDDM)` and click `Apply Plasma Settings...` then `Apply`. (This is because for various reasons, the color scheme can't be automatically applied.)
 
 That's it! Enjoy your rice, and remember to check the [Krohnkite docs](https://codeberg.org/anametologin/Krohnkite#settings). (Very helpful!)
