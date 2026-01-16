@@ -7,12 +7,17 @@ ShowCloseOutlineNormallyActive=true
 ShowCloseOutlineNormallyInactive=true
 ShowOutlineNormallyActive=true
 ShowOutlineNormallyInactive=true
+VaryColorCloseBackgroundActive=Opaque
+VaryColorCloseBackgroundInactive=Opaque
+VaryColorCloseOutlineActive=No
+VaryColorCloseOutlineInactive=No
+VaryColorOutlineActive=No
+VaryColorOutlineInactive=No
 
 [ButtonColors]
 ButtonBackgroundColorsActive=AccentNegativeClose
 ButtonBackgroundColorsInactive=Accent
-ButtonBackgroundOpacityInactive=40
-ButtonIconColorsActive=TitleBarTextNegativeClose
+ButtonIconColorsActive=TitleBarText
 CloseButtonIconColorActive=AsSelected
 CloseButtonIconColorInactive=AsSelected
 
@@ -35,22 +40,9 @@ MenuOpacity=80
 ScrollBarMinSliderHeight=16
 SplitterProxyEnabled=true
 
-[TitleBarOpacity]
-ActiveTitleBarOpacity=50
-ApplyOpacityToHeader=false
-InactiveTitleBarOpacity=33
-OpaqueMaximizedTitleBars=false
-
-[TitleBarSpacing]
-TitleAlignment=AlignLeft
-TitleSidePadding=0
-
 [Windeco]
-ButtonIconStyle=StyleTraditional
+ButtonIconStyle=StyleSystemIconTheme
 ButtonShape=ShapeIntegratedRoundedRectangleGrouped
-ColorizeThinWindowOutlineWithButton=false
-IconSize=IconMedium
-WindowCornerRadius=5
 
 [WindowOutlineStyle]
-ThinWindowOutlineThickness=2
+ThinWindowOutlineThickness=1.5000000000000004

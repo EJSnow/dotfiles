@@ -1,11 +1,11 @@
-[Effect-blurplus]
+[Effect-better-blur-dx]
 BlurDecorations=true
-BlurDocks=true
+BlurMatching=false
 BlurMenus=true
+BlurNonMatching=true
 BlurStrength=4
 NoiseStrength=0
-TransparentBlur=false
-WindowClasses=systemsettings\nmodrinth-app\norg.kde.dolphin\norg.kde.kwrite\nspotify\nkcm_kwinrules\nkcm_klassydecoration\nklassystyleconfig\norg.kde.ghostwriter\ndiscord\norg.kde.kate\norg.kde.plasma-systemmonitor\nsteam\norg.kde.kmenuedit\ngoverlay\norg.kde.ktorrent\norg.kde.filelight\norg.freedesktop.impl.portal.desktop.kde\norg.kde.polkit-kde-authentication-agent-1\norg.kde.kdialog\nVirtualBox Manager\nVirtualBox\norg.kde.partitionmanager\ntimeshift-gtk
+WindowClasses=steam_app_*\norg.mozilla.firefox
 
 [Effect-glide]
 Duration=300
@@ -51,11 +51,11 @@ CommandWindow3=Activate, raise and pass click
 
 [NightColor]
 Active=true
-NightTemperature=3500
+NightTemperature=4000
 
 [Plugins]
+better_blur_dxEnabled=true
 blurEnabled=false
-forceblurEnabled=true
 glideEnabled=true
 hidecursorEnabled=true
 krohnkiteEnabled=true
@@ -67,11 +67,11 @@ wobblywindowsEnabled=true
 [Script-krohnkite]
 floatedWindowsLayer=2
 monocleMaximize=false
-screenGapBetween=12
-screenGapBottom=12
-screenGapLeft=12
-screenGapRight=12
-screenGapTop=12
+screenGapBetween=10
+screenGapBottom=10
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
 tiledWindowsLayer=1
 
 [TabBox]

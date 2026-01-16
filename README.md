@@ -17,10 +17,8 @@ i am planning to automate installation of the rice but until I figure that out h
 2. Install dependencies (KWin scripts/desktop effects/cursor theme) (A functional KDE Plasma installation is assumed):
 
 ```
-yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy klassy-qt5 kwin-effects-forceblur kwin-scripts-krohnkite kwin-effects-geometry-change starship ttf-hack-nerd
+yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-effects-better-blur-dx kwin-scripts-krohnkite kwin-effects-geometry-change starship ttf-hack-nerd
 ```
-
-Note: kwin-effects-forceblur is currently unmaintained, but still works on Plasma. However, the AUR package was deleted, so the easiest way to get it is to use the [chaotic-aur](https://aur.chaotic.cx/) as it still has the effect packaged. See [https://aur.chaotic.cx/docs](https://aur.chaotic.cx/docs) to add the chaotic-aur to your system.
 
 3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files. NOTE: This folder might appear to be empty, that's because all the files in it are hidden. Press Ctrl+H in your file manager to show hidden files or on the command line, `ls -a` will show hidden files.
 

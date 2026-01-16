@@ -1,11 +1,11 @@
 [76a29218-a8d3-4901-81fe-73cddf8dcaf4]
-Description=BetterBlur
+Description=BetterBlur translucency
 opacityactive=85
 opacityactiverule=2
-opacityinactive=80
+opacityinactive=75
 opacityinactiverule=2
-types=1
-wmclass=^(systemsettings|modrinth-app|org.kde.dolphin|org.kde.kwrite|spotify|kcm_kwinrules|kcm_klassydecoration|klassystyleconfig|org.kde.ghostwriter|discord|org.kde.kate|org.kde.plasma-systemmonitor|org.kde.filelight|steam$|org.kde.kmenuedit|goverlay|org.kde.ktorrent|org.freedesktop.impl.portal.desktop.kde|org.kde.polkit-kde-authentication-agent-1|org.kde.kdialog|VirtualBox Manager|VirtualBox$|org.kde.partitionmanager|timeshift-gtk)
+types=289
+wmclass=(systemsettings|modrinth-app|dolphin|kwrite|spotify|kcm|klassy|ghostwriter|discord|kate|plasma-systemmonitor|filelight|steam$|kmenuedit|goverlay|ktorrent|org.freedesktop.impl.portal|polkit-kde-authentication-agent|kdialog|Virtualbox Manager|Virtualbox$|partitionmanager|timeshift|ark|antimicrox|appimagelauncher|blockbench|chunker|converseen|sqlitebrowser|discover|easyeffects|elisa|emojier|khelpcenter|kinfocenter|isoimagewriter|kjournaldbrowser|kaddressbook|kamoso|kcalc|kcharselect|kdeconnect|KeePassXC|kfind|kmail|kontact|korganizer|krename|ksystemlog|kwalletmanager|LACT|libreoffice|octopi|q4wine|Ventoy2Disk|code|plasma-welcome|yad|zenity)
 wmclassmatch=3
 
 [General]
