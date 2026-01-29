@@ -17,7 +17,7 @@ i am planning to automate installation of the rice but until I figure that out h
 2. Install dependencies (KWin scripts/desktop effects/cursor theme) (A functional KDE Plasma installation is assumed):
 
 ```
-yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-effects-better-blur-dx kwin-scripts-krohnkite kwin-effects-geometry-change starship ttf-hack-nerd
+yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-effects-better-blur-dx kwin-effects-geometry-change starship ttf-hack-nerd
 ```
 
 3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files. NOTE: This folder might appear to be empty, that's because all the files in it are hidden. Press Ctrl+H in your file manager to show hidden files or on the command line, `ls -a` will show hidden files.
@@ -26,4 +26,4 @@ yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-eff
 
 5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart). After restarting, go to `Colors and Themes/Colors` in System Settings and select `Nord Dark` (or `Nord Light` for light theme) and apply. Then go to `Colors and Themes/Login Screen (SDDM)` and click `Apply Plasma Settings...` then `Apply`. (This is because for various reasons, the color scheme can't be automatically applied.)
 
-That's it! Enjoy your rice, and remember to check the [Krohnkite docs](https://codeberg.org/anametologin/Krohnkite#settings). (Very helpful!)
+That's it! Enjoy your rice!

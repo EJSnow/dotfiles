@@ -58,21 +58,10 @@ better_blur_dxEnabled=true
 blurEnabled=false
 glideEnabled=true
 hidecursorEnabled=true
-krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 mousemarkEnabled=true
 scaleEnabled=false
 wobblywindowsEnabled=true
-
-[Script-krohnkite]
-floatedWindowsLayer=2
-monocleMaximize=false
-screenGapBetween=10
-screenGapBottom=10
-screenGapLeft=10
-screenGapRight=10
-screenGapTop=10
-tiledWindowsLayer=1
 
 [TabBox]
 ShowDesktopMode=1
