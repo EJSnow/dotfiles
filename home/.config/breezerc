@@ -1,4 +1,5 @@
 [Common]
+OutlineCloseButton=true
 ShadowSize=ShadowMedium
 
 [Style]
