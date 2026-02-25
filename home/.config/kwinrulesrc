@@ -2,10 +2,11 @@
 Description=BetterBlur translucency
 opacityactive=85
 opacityactiverule=2
-opacityinactive=75
+opacityinactive=80
 opacityinactiverule=2
-types=289
+types=305
 wmclass=^(systemsettings|modrinth-app|dolphin|kwrite|kcm|klassy|ghostwriter|discord|kate|plasma-systemmonitor|filelight|kclock|libreoffice|ark|appimagelauncher|drkonqi|sqlitebrowser|deskreen-ce|discover|easyeffects|elisa|emojier|firewall-config|khelpcenter|yad-icon-browser|iconexplorer|kinfocenter|isoimagewriter|kjournaldbrowser|kcalc|kcharselect|kdeconnect|partitionmanager|KeePassXC|kid3|krename|krfb|ksystemlog|kwalletmanager|kmenuedit|goverlay|ktorrent|LACT|org.freedesktop.impl.portal|octopi|okular|VirtualBox Manager|VirtualBox$|plasmaengineexplorer|plasma.lookandfeelexplorer|plasma.themeexplorer|PrismLauncher|yad|kdialog|zenity|q4wine|assistant|qtcreator|qdbusviewer|linguist|designer|krecorder|spotify-qt|steam$|polkit-kde-authentication-agent|Ventoy2Disk|code|kweather|plasma-welcome)
+wmclasscomplete=true
 wmclassmatch=3
 
 [General]
@@ -17,5 +18,6 @@ Description=PiP fix for Wayland
 above=true
 aboverule=2
 types=1
-wmclass=Picture-in-Picture
-wmclassmatch=1
+title=Picture in picture
+titlematch=2
+types=1
