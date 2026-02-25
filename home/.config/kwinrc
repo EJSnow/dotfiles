@@ -5,7 +5,8 @@ BlurMenus=true
 BlurNonMatching=true
 BlurStrength=4
 NoiseStrength=0
-WindowClasses=steam_app_*\norg.mozilla.firefox
+Saturation=100
+WindowClasses=/^steam_app_.*/\norg.mozilla.firefox\ngoogle-chrome\nactivate-linux
 
 [Effect-glide]
 Duration=300
@@ -78,7 +79,7 @@ Right=ApplicationLauncher
 Top=KRunner
 
 [Wayland]
-VirtualKeyboardEnabled=true
+VirtualKeyboardEnabled=false
 
 [Windows]
 CenterSnapZone=10

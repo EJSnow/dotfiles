@@ -5,12 +5,12 @@ opacityactiverule=2
 opacityinactive=75
 opacityinactiverule=2
 types=289
-wmclass=(systemsettings|modrinth-app|dolphin|kwrite|spotify|kcm|klassy|ghostwriter|discord|kate|plasma-systemmonitor|filelight|steam$|kmenuedit|goverlay|ktorrent|org.freedesktop.impl.portal|polkit-kde-authentication-agent|kdialog|Virtualbox Manager|Virtualbox$|partitionmanager|timeshift|ark|antimicrox|appimagelauncher|blockbench|chunker|converseen|sqlitebrowser|discover|easyeffects|elisa|emojier|khelpcenter|kinfocenter|isoimagewriter|kjournaldbrowser|kaddressbook|kamoso|kcalc|kcharselect|kdeconnect|KeePassXC|kfind|kmail|kontact|korganizer|krename|ksystemlog|kwalletmanager|LACT|libreoffice|octopi|q4wine|Ventoy2Disk|code|plasma-welcome|yad|zenity)
+wmclass=^(systemsettings|modrinth-app|dolphin|kwrite|kcm|klassy|ghostwriter|discord|kate|plasma-systemmonitor|filelight|kclock|libreoffice|ark|appimagelauncher|drkonqi|sqlitebrowser|deskreen-ce|discover|easyeffects|elisa|emojier|firewall-config|khelpcenter|yad-icon-browser|iconexplorer|kinfocenter|isoimagewriter|kjournaldbrowser|kcalc|kcharselect|kdeconnect|partitionmanager|KeePassXC|kid3|krename|krfb|ksystemlog|kwalletmanager|kmenuedit|goverlay|ktorrent|LACT|org.freedesktop.impl.portal|octopi|okular|VirtualBox Manager|VirtualBox$|plasmaengineexplorer|plasma.lookandfeelexplorer|plasma.themeexplorer|PrismLauncher|yad|kdialog|zenity|q4wine|assistant|qtcreator|qdbusviewer|linguist|designer|krecorder|spotify-qt|steam$|polkit-kde-authentication-agent|Ventoy2Disk|code|kweather|plasma-welcome)
 wmclassmatch=3
 
 [General]
-count=3
-rules=b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5,76a29218-a8d3-4901-81fe-73cddf8dcaf4,ce8b3626-27fb-4032-877b-c16d0e12e981
+count=2
+rules=b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5,76a29218-a8d3-4901-81fe-73cddf8dcaf4
 
 [b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5]
 Description=PiP fix for Wayland
@@ -19,8 +19,3 @@ aboverule=2
 types=1
 wmclass=Picture-in-Picture
 wmclassmatch=1
-
-[ce8b3626-27fb-4032-877b-c16d0e12e981]
-Description=Override minimum size for Kronkite
-minsizerule=2
-types=1
