@@ -1,8 +1,8 @@
 # My KDE Plasma dotfiles
 
-My personal KDE Plasma rice. In case my arch installs get corrupted or something. I use these configs on Arch Linux but you can get the KWin extensions and cursor theme anywhere.
+My personal KDE Plasma dotfiles. In case my arch installs get corrupted or something. I use these configs on Arch Linux but you can get the KWin extensions and cursor theme anywhere.
 
-NOTE: This exists mostly so I can easily restore my rice on a fresh Arch Linux installation. I won't provide support if you try to use these dotfiles on your own system. Some things might not apply and stuff may break. Use at your own risk.
+NOTE: This exists mostly so I can easily restore my configs on a fresh Arch Linux installation. I won't provide support if you try to use these dotfiles on your own system. Some things might not apply and stuff may break. Use at your own risk.
 
 UPDATE 2/24/2026: Plasma 6.6 has released with a new login manager, Plasma Login Manager. I've switched to it and it's working great so far aside from my color scheme not applying (even though the theme files are installed globally). I've removed the SDDM configs and added Plasma Login configs so keep that in mind.
 
@@ -10,7 +10,7 @@ The color schemes are based off of these: [Nord Light](https://store.kde.org/p/1
 
 The Konsole theme is the official [Nord Konsole](https://github.com/nordtheme/konsole) color theme.
 
-i am planning to automate installation of the rice but until I figure that out here's manual installation instructions:
+i am planning to automate installation via a script but until I figure that out here's manual installation instructions:
 
 ## Installation/Usage
 
@@ -28,4 +28,4 @@ yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-eff
 
 5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart). After restarting, go to `Colors and Themes/Colors` in System Settings and select `Nord Dark` (or `Nord Light` for light theme) and apply. Then go to `Login Screen` and click `Apply Plasma Settings...` then `Apply`. (This is because for various reasons, the color scheme can't be automatically applied.)
 
-That's it! Enjoy your rice!
+That's it!
