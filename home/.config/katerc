@@ -1,13 +1,13 @@
 [General]
 Allow Tab Scrolling=true
-Auto Hide Tabs=false
+Auto Hide Tabs=true
 Close After Last=false
 Close documents with window=true
 Cycle To First Tab=true
 Days Meta Infos=30
 Diagnostics Limit=12000
 Diff Show Style=0
-Elide Tab Text=false
+Elide Tab Text=true
 Enable Context ToolView=false
 Expand Tabs=false
 Icon size for left and right sidebar buttons=32
@@ -22,6 +22,8 @@ Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
 Save Meta Infos=true
+Session Manager Sort Column=2
+Session Manager Sort Order=1
 Show Full Path in Title=false
 Show Menu Bar=true
 Show Status Bar=true
@@ -40,14 +42,59 @@ Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=true
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=false
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Use Editor Config=true
+Word Wrap=false
+Word Wrap Column=80
+
 [KTextEditor Renderer]
 Animate Bracket Matching=false
-Auto Color Theme Selection=false
-Color Theme=Nord
+Auto Color Theme Selection=true
+Color Theme=Breeze Light
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
-Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 Text Font Features=
 Word Wrap Marker=false
 
@@ -63,6 +110,8 @@ Bracket Match Preview=false
 Chars To Enclose Selection=<>(){}[]'"
 Cycle Through Bookmarks=true
 Default Mark Type=1
+Disable bracket match highlight if inactive=false
+Disable current line highlight if inactive=false
 Dynamic Word Wrap=true
 Dynamic Word Wrap Align Indent=80
 Dynamic Word Wrap At Static Marker=false
@@ -74,6 +123,7 @@ Enter To Insert Completion=true
 Fold First Line=false
 Folding Bar=true
 Folding Preview=true
+Hide cursor if inactive=false
 Icon Bar=false
 Input Mode=0
 Keyword Completion=true
@@ -87,7 +137,7 @@ Persistent Selection=false
 Scroll Bar Marks=false
 Scroll Bar Mini Map All=true
 Scroll Bar Mini Map Width=60
-Scroll Bar MiniMap=false
+Scroll Bar MiniMap=true
 Scroll Bar Preview=true
 Scroll Past End=false
 Search/Replace Flags=140
@@ -96,7 +146,7 @@ Show Documentation With Completion=true
 Show File Encoding=true
 Show Folding Icons On Hover Only=false
 Show Line Count=false
-Show Scrollbars=0
+Show Scrollbars=1
 Show Statusbar Dictionary=true
 Show Statusbar Highlighting Mode=true
 Show Statusbar Input Mode=true
@@ -121,18 +171,11 @@ RemoveExtension=false
 RunPrefix=
 SetEditor=false
 
-[MainWindow]
-1536x864 screen: Height=234
-1536x864 screen: Width=749
-1600x900 screen: Height=628
-1600x900 screen: Width=1086
-1600x900 screen: Window-Maximized=true
-
 [filetree]
 editShade=183,220,246
 listMode=false
 middleClickToClose=false
-shadingEnabled=true
+shadingEnabled=false
 showCloseButton=false
 showFullPathOnRoots=false
 showToolbar=true
@@ -140,7 +183,7 @@ sortRole=0
 viewShade=211,190,222
 
 [lspclient]
-AllowedServerCommandLines=
+AllowedServerCommandLines=/usr/bin/marksman server
 AutoHover=true
 AutoImport=true
 BlockedServerCommandLines=

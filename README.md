@@ -19,13 +19,13 @@ i am planning to automate installation via a script but until I figure that out 
 2. Install dependencies (desktop effects/cursor theme/font/etc) (A functional KDE Plasma installation is assumed):
 
 ```
-yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-effects-better-blur-dx kwin-effects-geometry-change starship ttf-hack-nerd
+yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-effects-geometry-change starship ttf-hack-nerd
 ```
 
 3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files. NOTE: This folder might appear to be empty, that's because all the files in it are hidden. Press Ctrl+H in your file manager to show hidden files or on the command line, `ls -a` will show hidden files.
 
 4. As root, copy everything inside the `root` folder to the system root (`/`). If asked, merge/overwrite existing folders/files.
 
-5. Reboot to fully apply settings (you could also do `systemctl soft-reboot` which is faster than a full restart). After restarting, go to `Colors and Themes/Colors` in System Settings and select `Nord Dark` (or `Nord Light` for light theme) and apply. Then go to `Login Screen` and click `Apply Plasma Settings...` then `Apply`. (This is because for various reasons, the color scheme can't be automatically applied.)
+5. Log out and log back in to fully apply the settings.
 
 That's it!

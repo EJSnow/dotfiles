@@ -1,15 +1,10 @@
-[Effect-better-blur-dx]
-BlurDecorations=true
-BlurMatching=false
-BlurMenus=true
-BlurNonMatching=true
-BlurStrength=4
+[Effect-blur]
+BlurStrength=3
 NoiseStrength=0
 Saturation=100
-WindowClasses=/^steam_app_.*/\norg.mozilla.firefox\ngoogle-chrome\nactivate-linux
 
 [Effect-glide]
-Duration=300
+Duration=250
 InRotationAngle=5
 OutRotationAngle=5
 
@@ -21,10 +16,6 @@ Duration=300
 
 [Effect-login]
 FadeToBlack=true
-
-[Effect-magnifier]
-Height=300
-Width=400
 
 [Effect-overview]
 BorderActivate=5
@@ -39,9 +30,6 @@ ResizeWobble=false
 Stiffness=6
 WobblynessLevel=2
 
-[Effect-zoom]
-MousePointer=1
-
 [ElectricBorders]
 BottomRight=ShowDesktop
 
@@ -55,12 +43,12 @@ Active=true
 NightTemperature=4000
 
 [Plugins]
-better_blur_dxEnabled=true
-blurEnabled=false
+blurEnabled=true
+cubeEnabled=true
+desktopchangeosdEnabled=true
 glideEnabled=true
 hidecursorEnabled=true
 kwin4_effect_geometry_changeEnabled=true
-mousemarkEnabled=true
 scaleEnabled=false
 wobblywindowsEnabled=true
 
@@ -69,9 +57,6 @@ ShowDesktopMode=1
 
 [TabBoxAlternative]
 LayoutName=flipswitch
-
-[Tiling]
-padding=4
 
 [TouchEdges]
 Bottom=ShowDesktop
@@ -84,11 +69,12 @@ VirtualKeyboardEnabled=false
 [Windows]
 CenterSnapZone=10
 ElectricBorderCornerRatio=0.15
+FocusStealingPreventionLevel=0
 
 [Xwayland]
 Scale=1.25
 
 [org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=M
-library=org.kde.breeze
-theme=Breeze

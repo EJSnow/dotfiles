@@ -9,14 +9,22 @@ XftSubPixel=rgb
 Theme=breeze-dark
 
 [KDE]
-ShowDeleteCommand=false
-widgetStyle=Klassy
+AutomaticLookAndFeel=true
+DefaultDarkLookAndFeel=Nord Dark
+DefaultLightLookAndFeel=Nord Light
+LookAndFeelPackage=Nord Light
+ShowDeleteCommand=true
+contrast=10
+frameContrast=0.2
 
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=false
+Breadcrumb Navigation=true
 Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -33,7 +41,7 @@ View Style=Detail
 Dialog Size=600,480
 
 [Locale]
-TimeFormat=h:mm:ss ap
+BinaryUnitDialect=2
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false

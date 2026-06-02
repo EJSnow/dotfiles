@@ -1,0 +1,28 @@
+# Download up to 1080p60 videos in MP4 format with the best audio format available, using H264 codec for videos
+-f 'bv[height<=1080][fps<=60][ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv[height<=1080][fps<=60]+ba/b'
+-S vcodec:h264
+
+# Censor characters prohibited by Windows in filenames
+--windows-filenames
+
+# Subtitle options
+--write-auto-subs
+--sub-lang "en.*"
+--embed-subs
+
+# Metadata/chapters
+--add-metadata
+--add-chapters
+
+# If the video isn't in MP4 or MKV format, remux it
+--remux-video "mp4/mkv"
+
+# other options
+-N 4
+-ci
+
+# Filename pattern
+-o "%(upload_date>%Y-%m-%d)s %(title)s.%(ext)s"
+
+# cookies because YT hates everything
+--cookies ~/Downloads/cookies.txt

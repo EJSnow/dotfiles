@@ -40,9 +40,3 @@ Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cur
 
 [VersionControl]
 enabledPlugins=Git
-
-[ViewPropertiesDialog]
-1536x864 screen: Height=464
-1536x864 screen: Width=379
-1600x900 screen: Height=462
-1600x900 screen: Width=379
