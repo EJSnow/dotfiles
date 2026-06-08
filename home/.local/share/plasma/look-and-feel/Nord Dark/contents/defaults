@@ -5,7 +5,7 @@ cursorTheme=Bibata-Original-Ice
 ColorScheme=NordDark
 
 [kdeglobals][Icons]
-Theme=breeze
+Theme=breeze-dark
 
 [kdeglobals][KDE]
 widgetStyle=Klassy

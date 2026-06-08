@@ -4,52 +4,6 @@ var layout = {
     "desktops": [
         {
             "applets": [
-            ],
-            "config": {
-                "/": {
-                    "ItemGeometries-1680x1050": "",
-                    "ItemGeometries-512x384": "Applet-26:0,192,240,160,0;Applet-111:240,128,208,224,0;Applet-112:1168,784,224,224,0;",
-                    "ItemGeometries-640x480": "Applet-26:0,288,240,160,0;Applet-25:240,288,240,160,0;",
-                    "ItemGeometriesHorizontal": "",
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "0",
-                    "wallpaperplugin": "org.kde.slideshow"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "540",
-                    "DialogWidth": "720"
-                },
-                "/General": {
-                    "arrangement": "1",
-                    "changedPositions": "{}",
-                    "iconSize": "2",
-                    "labelWidth": "0",
-                    "lastResolution": "1680x1050",
-                    "positions": "{\"1097x686\":[\"1\",\"7\",\"desktop:/Video Projects\",\"10\",\"0\",\"desktop:/Minecraft instances\",\"0\",\"0\",\"desktop:/Steam Gaming Mode-2.desktop\",\"0\",\"3\",\"desktop:/ActivityWatch.desktop\",\"1\",\"0\"],\"1152x864\":[\"21\",\"8\",\"desktop:/Video Projects\",\"15\",\"0\",\"desktop:/Minecraft instances\",\"16\",\"0\",\"desktop:/Steam Gaming Mode-2.desktop\",\"0\",\"0\",\"desktop:/ActivityWatch.desktop\",\"1\",\"0\"],\"1280x1024\":[\"13\",\"10\",\"desktop:/Video Projects\",\"15\",\"0\",\"desktop:/Minecraft instances\",\"16\",\"0\",\"desktop:/Steam Gaming Mode-2.desktop\",\"0\",\"0\",\"desktop:/ActivityWatch.desktop\",\"1\",\"0\"],\"1280x800\":[\"19\",\"8\",\"desktop:/Video Projects\",\"15\",\"0\",\"desktop:/Minecraft instances\",\"16\",\"0\",\"desktop:/Steam Gaming Mode-2.desktop\",\"0\",\"0\",\"desktop:/ActivityWatch.desktop\",\"1\",\"0\"],\"1600x900\":[\"18\",\"9\",\"desktop:/Video Projects\",\"15\",\"0\",\"desktop:/Minecraft instances\",\"16\",\"0\",\"desktop:/Steam Gaming Mode-2.desktop\",\"0\",\"0\",\"desktop:/ActivityWatch.desktop\",\"1\",\"0\"],\"1680x1050\":[\"1\",\"10\"],\"512x384\":[\"2\",\"2\",\"desktop:/Steam Gaming Mode-2.desktop\",\"1\",\"1\",\"desktop:/ActivityWatch.desktop\",\"0\",\"1\",\"desktop:/Ezra Snow\",\"0\",\"0\",\"desktop:/Minecraft instances\",\"1\",\"0\"]}",
-                    "sortMode": "-1",
-                    "toolTips": "true"
-                },
-                "/Wallpaper/com.github.catsout.wallpaperEngineKde/General": {
-                    "DisplayMode": "1",
-                    "PauseMode": "2"
-                },
-                "/Wallpaper/org.kde.image/General": {
-                    "Image": "/usr/share/wallpapers/Next/",
-                    "PreviewImage": "/usr/share/wallpapers/Next/",
-                    "SlidePaths": "/usr/share/wallpapers/"
-                },
-                "/Wallpaper/org.kde.slideshow/General": {
-                    "Image": "file:///home/ejsnow/Pictures/gaming/Screenshot_20250827_161243.png",
-                    "SlideInterval": "300",
-                    "SlidePaths": "/home/ejsnow/Pictures/gaming/",
-                    "SlideshowMode": "1"
-                }
-            },
-            "wallpaperPlugin": "org.kde.slideshow"
-        },
-        {
-            "applets": [
                 {
                     "config": {
                         "/": {
@@ -59,22 +13,17 @@ var layout = {
                         "/Appearance": {
                             "chartFace": "org.kde.ksysguard.linechart",
                             "showTitle": "false",
-                            "title": "Network Speed",
-                            "updateRateLimit": "0"
+                            "title": "Network Speed"
                         },
                         "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         },
                         "/SensorColors": {
-                            "network/all/download": "61,174,233",
+                            "network/all/download": "136,192,208",
                             "network/all/downloadBits": "136,192,208",
-                            "network/all/upload": "255,255,255",
-                            "network/all/uploadBits": "216,222,233"
-                        },
-                        "/SensorLabels": {
-                            "network/all/downloadBits": "Download rate",
-                            "network/all/uploadBits": "Upload rate"
+                            "network/all/upload": "208,152,136",
+                            "network/all/uploadBits": "236,239,244"
                         },
                         "/Sensors": {
                             "highPrioritySensorIds": "[\"network/all/downloadBits\",\"network/all/uploadBits\"]"
@@ -98,28 +47,26 @@ var layout = {
                         },
                         "/Appearance": {
                             "chartFace": "org.kde.ksysguard.horizontalbars",
-                            "showTitle": "true",
-                            "title": "CPU (Core i7-4790) & RAM"
+                            "title": "CPU: Core i7-1065G7"
                         },
                         "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         },
                         "/SensorColors": {
-                            "cpu/all/usage": "136,192,208",
+                            "cpu/all/usage": "136,199,208",
                             "memory/physical/used": "180,142,173"
                         },
                         "/SensorLabels": {
                             "cpu/all/averageFrequency": "CPU Frequency",
                             "cpu/all/averageTemperature": "CPU Temperature",
-                            "cpu/all/coreCount": "CPU Threads",
                             "cpu/all/usage": "CPU Usage",
-                            "memory/physical/total": "Total Usable RAM",
+                            "memory/physical/total": "Total RAM",
                             "memory/physical/used": "RAM Usage"
                         },
                         "/Sensors": {
                             "highPrioritySensorIds": "[\"cpu/all/usage\",\"memory/physical/used\"]",
-                            "lowPrioritySensorIds": "[\"cpu/all/averageFrequency\",\"cpu/all/averageTemperature\",\"memory/physical/total\"]"
+                            "lowPrioritySensorIds": "[\"cpu/all/averageFrequency\",\"cpu/all/averageTemperature\"]"
                         }
                     },
                     "geometry.height": 0,
@@ -127,7 +74,7 @@ var layout = {
                     "geometry.x": 0,
                     "geometry.y": 0,
                     "plugin": "org.kde.plasma.systemmonitor",
-                    "title": "System Monitor Sensor"
+                    "title": "CPU: Core i7-1065G7"
                 },
                 {
                     "config": {
@@ -137,35 +84,25 @@ var layout = {
                         },
                         "/Appearance": {
                             "chartFace": "org.kde.ksysguard.horizontalbars",
-                            "title": "GPU (RX 6400)"
+                            "title": "Battery Status"
                         },
                         "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         },
                         "/SensorColors": {
-                            "gpu/gpu1/usage": "241,0,59",
-                            "gpu/gpu1/usedVram": "180,142,173",
-                            "gpu/gpu2/usage": "241,0,59",
-                            "gpu/gpu2/usedVram": "180,142,173"
+                            "power/2229/chargePercentage": "136,192,208"
                         },
                         "/SensorLabels": {
-                            "gpu/gpu1/coreFrequency": "GPU Frequency",
-                            "gpu/gpu1/fan1": "Fan speed",
-                            "gpu/gpu1/temperature": "GPU Temperature",
-                            "gpu/gpu1/usage": "GPU Usage",
-                            "gpu/gpu1/usedVram": "VRAM Usage",
-                            "gpu/gpu2/coreFrequency": "Core Frequency",
-                            "gpu/gpu2/fan1": "Fan speed",
-                            "gpu/gpu2/memoryFrequency": "Memory Frequency",
-                            "gpu/gpu2/power": "GPU Power",
-                            "gpu/gpu2/temperature": "GPU Temperature",
-                            "gpu/gpu2/usage": "GPU Usage",
-                            "gpu/gpu2/usedVram": "VRAM Usage"
+                            "power/2229/capacity": "Current Capacity",
+                            "power/2229/chargePercentage": "Battery Level",
+                            "power/2229/chargeRate": "Charge/Discharge Rate",
+                            "power/2229/design": "Design Capacity",
+                            "power/2229/health": "Battery Health"
                         },
                         "/Sensors": {
-                            "highPrioritySensorIds": "[\"gpu/gpu2/usage\",\"gpu/gpu2/usedVram\"]",
-                            "lowPrioritySensorIds": "[\"gpu/gpu2/coreFrequency\",\"gpu/gpu2/temperature\",\"gpu/gpu2/fan1\"]"
+                            "highPrioritySensorIds": "[\"power/2229/chargePercentage\"]",
+                            "lowPrioritySensorIds": "[\"power/2229/chargeRate\",\"power/2229/health\",\"power/2229/design\",\"power/2229/capacity\"]"
                         }
                     },
                     "geometry.height": 0,
@@ -173,54 +110,33 @@ var layout = {
                     "geometry.x": 0,
                     "geometry.y": 0,
                     "plugin": "org.kde.plasma.systemmonitor",
-                    "title": "System Monitor Sensor"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "popupHeight": "400",
-                            "popupWidth": "560"
-                        }
-                    },
-                    "geometry.height": 0,
-                    "geometry.width": 0,
-                    "geometry.x": 0,
-                    "geometry.y": 0,
-                    "plugin": "org.kde.plasma.analogclock",
-                    "title": "Analog Clock"
+                    "title": "Battery Status"
                 }
             ],
             "config": {
                 "/": {
-                    "ItemGeometries-1097x686": "Applet-150:0,0,240,240,0;Applet-26:0,448,240,160,0;Applet-111:608,384,224,224,0;Applet-112:832,384,224,224,0;",
-                    "ItemGeometries-1280x720": "",
-                    "ItemGeometries-1280x800": "Applet-150:0,0,240,240,0;Applet-26:0,544,240,160,0;Applet-112:832,480,224,224,0;Applet-111:1056,480,224,224,0;",
-                    "ItemGeometries-1536x864": "",
-                    "ItemGeometries-1920x1080": "",
-                    "ItemGeometries-1920x1200": "",
-                    "ItemGeometries-427x320": "",
-                    "ItemGeometriesHorizontal": "Applet-150:0,0,240,240,0;Applet-26:0,448,240,160,0;Applet-111:608,384,224,224,0;Applet-112:832,384,224,224,0;",
+                    "ItemGeometries-1536x864": "Applet-31:0,672,256,160,0;Applet-33:1056,640,208,192,0;Applet-34:1264,640,208,192,0;",
+                    "ItemGeometries-1920x1080": "Applet-31:-0.0512,879.846,256,160,0;Applet-33:1440,848,208,192,0;Applet-34:1648,848,208,192,0;",
+                    "ItemGeometriesHorizontal": "Applet-31:0,672,256,160,0;Applet-33:1056,640,208,192,0;Applet-34:1264,640,208,192,0;",
                     "formfactor": "0",
                     "immutability": "1",
-                    "lastScreen": "1",
-                    "wallpaperplugin": "org.kde.image"
+                    "lastScreen": "0",
+                    "wallpaperplugin": "org.kde.slideshow"
                 },
                 "/ConfigDialog": {
                     "DialogHeight": "630",
                     "DialogWidth": "810"
                 },
-                "/Wallpaper/org.kde.image/General": {
-                    "Image": "file:///home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img8.jpg",
-                    "SlidePaths": "/usr/share/wallpapers/"
+                "/General": {
+                    "iconSize": "2"
                 },
                 "/Wallpaper/org.kde.slideshow/General": {
-                    "Image": "file:///home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img13.jpg",
-                    "SlideInterval": "300",
-                    "SlidePaths": "/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/",
-                    "UncheckedSlides": "/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img0.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img1.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img14.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img15.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img16.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img17.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img18.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img19.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img2.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img20.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img21.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img22.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img23.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img24.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img26.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img25.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img27.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img28.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img3.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img29.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img30.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img4.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img5.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/img6.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/Logon.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/Embedded/Logon-Embedded.jpg,/home/ejsnow/Pictures/Windows wallpapers/8 - Windows 7/Starter/img0.jpg"
+                    "Image": "file:///home/ejsnow/Pictures/theme/Screenshot_20250802_142506.png",
+                    "SlideInterval": "600",
+                    "SlidePaths": "/home/ejsnow/Pictures/theme/"
                 }
             },
-            "wallpaperPlugin": "org.kde.image"
+            "wallpaperPlugin": "org.kde.slideshow"
         }
     ],
     "panels": [
@@ -231,11 +147,11 @@ var layout = {
                     "config": {
                         "/": {
                             "popupHeight": "547",
-                            "popupWidth": "648"
+                            "popupWidth": "653"
                         },
                         "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         },
                         "/General": {
                             "alphaSort": "true",
@@ -258,14 +174,17 @@ var layout = {
                 {
                     "config": {
                         "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         },
                         "/General": {
                             "highlightWindows": "true",
                             "iconSpacing": "0",
                             "interactiveMute": "false",
-                            "launchers": "applications:org.kde.konsole.desktop,preferred://filemanager,applications:org.mozilla.firefox.desktop,applications:spotify.desktop,applications:org.kde.elisa.desktop,applications:steam.desktop,applications:com.obsproject.Studio.desktop,file:///usr/share/applications/libreoffice-calc.desktop"
+                            "launchers": "applications:org.kde.konsole.desktop,preferred://filemanager,applications:firefox.desktop,applications:spotify.desktop,applications:org.kde.elisa.desktop,applications:discord.desktop,applications:steam.desktop,file:///usr/share/applications/libreoffice-writer.desktop",
+                            "showOnlyCurrentDesktop": "false",
+                            "showOnlyCurrentScreen": "true",
+                            "wheelEnabled": "TaskOnly"
                         }
                     },
                     "plugin": "org.kde.plasma.icontasks"
@@ -284,11 +203,11 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 }
             },
-            "height": 3,
+            "height": 2.888888888888889,
             "hiding": "dodgewindows",
             "location": "right",
-            "maximumLength": 56.77777777777778,
-            "minimumLength": 56.77777777777778,
+            "maximumLength": 46.333333333333336,
+            "minimumLength": 46.333333333333336,
             "offset": 0
         },
         {
@@ -296,10 +215,6 @@ var layout = {
             "applets": [
                 {
                     "config": {
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        }
                     },
                     "plugin": "org.kde.plasma.appmenu"
                 },
@@ -312,15 +227,17 @@ var layout = {
                     "config": {
                         "/": {
                             "popupHeight": "451",
-                            "popupWidth": "396"
+                            "popupWidth": "810"
                         },
                         "/Appearance": {
-                            "customDateFormat": "dd-MM-yyyy",
-                            "dateFormat": "isoDate"
+                            "dateFormat": "isoDate",
+                            "displayTimezoneFormat": "UTCOffset",
+                            "fontWeight": "400",
+                            "selectedTimeZones": "US/Central,Local"
                         },
                         "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         }
                     },
                     "plugin": "org.kde.plasma.digitalclock"
@@ -344,109 +261,12 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 }
             },
-            "height": 1.5555555555555556,
+            "height": 1.6666666666666667,
             "hiding": "normal",
             "location": "top",
-            "maximumLength": 90.38888888888889,
-            "minimumLength": 90.38888888888889,
+            "maximumLength": 85.33333333333333,
+            "minimumLength": 85.33333333333333,
             "offset": 0
-        },
-        {
-            "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "popupHeight": "508",
-                            "popupWidth": "648"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "630",
-                            "DialogWidth": "810"
-                        },
-                        "/General": {
-                            "alphaSort": "true",
-                            "favoritesDisplay": "1",
-                            "favoritesPortedToKAstats": "true",
-                            "icon": "/usr/share/pixmaps/archlinux-logo.png",
-                            "primaryActions": "3",
-                            "showActionButtonCaptions": "false",
-                            "showRecentApps": "false",
-                            "showRecentDocs": "false",
-                            "systemFavorites": "lock-screen\\,logout\\,save-session\\,switch-user\\,suspend\\,hibernate\\,reboot\\,shutdown"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.kickerdash"
-                },
-                {
-                    "config": {
-                        "/ConfigDialog": {
-                            "DialogHeight": "630",
-                            "DialogWidth": "810"
-                        },
-                        "/General": {
-                            "interactiveMute": "false",
-                            "launchers": "applications:org.kde.konsole.desktop,preferred://filemanager,preferred://browser,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:com.obsproject.Studio.desktop,applications:spotify.desktop,applications:org.kde.elisa.desktop,file:///usr/share/applications/libreoffice-calc.desktop"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.icontasks"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "2",
-                    "immutability": "1",
-                    "lastScreen": "1",
-                    "wallpaperplugin": "org.kde.image"
-                }
-            },
-            "height": 4,
-            "location": "bottom"
-        },
-        {
-            "applets": [
-                {
-                    "config": {
-                    },
-                    "plugin": "org.kde.plasma.appmenu"
-                },
-                {
-                    "config": {
-                    },
-                    "plugin": "org.kde.plasma.panelspacer"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "popupHeight": "451",
-                            "popupWidth": "560"
-                        },
-                        "/Appearance": {
-                            "customDateFormat": "dd-MM-yyyy",
-                            "dateFormat": "custom"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "630",
-                            "DialogWidth": "810"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.digitalclock"
-                },
-                {
-                    "config": {
-                    },
-                    "plugin": "org.kde.plasma.panelspacer"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "2",
-                    "immutability": "1",
-                    "lastScreen": "1",
-                    "wallpaperplugin": "org.kde.image"
-                }
-            },
-            "height": 4,
-            "location": "top"
         }
     ],
     "serializationFormatVersion": "1"
