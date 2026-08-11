@@ -10,124 +10,127 @@
     }
   },
   "display": {
-    "separator": " "
+    "separator": " ",
+    "brightColor": "false"
   },
   "modules": [
-    "title",
     {
       "type": "custom",
-      "format": "\u001b[37m┌──────────────────────Hardware──────────────────────┐"
+      "format": "\u001b[36m╭───────────╮"
     },
     {
-      "type": "host",
-      "key": "󰌢 PC",
-      "keyColor": "green",
-      "format": "{vendor} {family} {name}"
+      "type": "title",
+      "key": "│  User    │",
+      "keyColor": "cyan",
+      "format": "{user-name}"
     },
     {
-      "type": "cpu",
-      "key": "├  ",
-      "keyColor": "green"
-    },
-    {
-      "type": "gpu",
-      "key": "├  ",
-      "keyColor": "green"
-    },
-    {
-      "type": "memory",
-      "key": "├  ",
-      "keyColor": "green"
-    },
-    {
-      "type": "disk",
-      "key": "├  ",
-      "keyColor": "green"
-    },
-    {
-      "type": "display",
-      "key": "└ 󰍹 ",
-      "keyColor": "green",
-      "format": "{name} {inch}\" {width}x{height} @ {refresh-rate}Hz [{type}]",
-    },
-    {
-      "type": "custom",
-      "format": "\u001b[37m├──────────────────────Software──────────────────────┤"
-    },
-    {
-      "type": "os",
-      "key": " OS",
-      "keyColor": "yellow"
-    },
-    {
-      "type": "kernel",
-      "key": "├  ",
-      "keyColor": "yellow"
-    },
-    {
-      "type": "packages",
-      "key": "├ 󰏖 ",
-      "keyColor": "yellow"
-    },
-    {
-      "type": "shell",
-      "key": "└  ",
-      "keyColor": "yellow"
-    },
-    {
-      "type": "de",
-      "key": " DE",
-      "keyColor": "blue"
-    },
-    {
-      "type": "lm",
-      "key": "├  ",
-      "keyColor": "blue"
-    },
-    {
-      "type": "wm",
-      "key": "├  ",
-      "keyColor": "blue"
-    },
-    {
-      "type": "wmtheme",
-      "key": "├ 󰉼 ",
-      "keyColor": "blue"
-    },
-    {
-      "type": "cursor",
-      "key": "├ 󰇀 ",
-      "keyColor": "blue"
-    },
-    {
-      "type": "terminal",
-      "key": "├  ",
-      "keyColor": "blue"
-    },
-    {
-      "type": "terminalfont",
-      "key": "└  ",
-      "keyColor": "blue"
-    },
-    {
-      "type": "custom",
-      "format": "\u001b[37m├────────────────────Age / Uptime────────────────────┤"
-    },
-    {
-      "type": "command",
-      "key": "󱑌 OS Age",
-      "keyColor": "magenta",
-      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+      "type": "title",
+      "key": "│ 󰒋 Host    │",
+      "keyColor": "cyan",
+      "format": "{host-name}"
     },
     {
       "type": "uptime",
-      "key": "└ Uptime",
-      "keyColor": "magenta"
+      "key": "│ 󰅐 Uptime  │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "host",
+      "key": "│ 󰌢 PC      │",
+      "keyColor": "cyan",
+      "format": "{family}"
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├  CPU   │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├  GPU   │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "display",
+      "key": "│ ├ 󰍹 Disp  │",
+      "keyColor": "cyan",
+      "format": "{name} {inch}\" {width}x{height} @ {refresh-rate}Hz"
+    },
+    {
+      "type": "disk",
+      "key": "│ ├  Disk  │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "memory",
+      "key": "│ ╰  RAM   │",
+      "keyColor": "cyan"
     },
     {
       "type": "custom",
-      "format": "\u001b[37m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[36m├───────────┤"
     },
-    "colors"
+    {
+      "type": "os",
+      "key": "│  OS      │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "kernel",
+      "key": "│  Kernel  │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏖 Pkgs    │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": "│  Term    │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "shell",
+      "key": "│  Shell   │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "de",
+      "key": "│  DE      │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "wm",
+      "key": "│  WM      │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ 󰉼 Theme   │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "cursor",
+      "key": "│ 󰇀 Cursor  │",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "command",
+      "key": "│ 󱑌 OS age  │",
+      "keyColor": "cyan",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+      "type": "colors",
+      "key": "│ 󰏘 Colors  │",
+      "keyColor": "cyan",
+      "symbol": "circle"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m╰───────────╯"
+    }
   ]
 }

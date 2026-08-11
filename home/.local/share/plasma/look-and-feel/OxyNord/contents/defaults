@@ -8,7 +8,7 @@ ColorScheme=NordLight
 Theme=breeze
 
 [kdeglobals][KDE]
-widgetStyle=Klassy
+widgetStyle=Oxygen
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
@@ -17,8 +17,8 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
-library=org.kde.klassy
-theme=Klassy
+library=org.kde.oxygen
+theme=Oxygen
 
 [plasmarc][Theme]
-name=default
+name=air

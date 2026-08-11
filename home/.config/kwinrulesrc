@@ -1,11 +1,33 @@
-[General]
-count=1
-rules=b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5
+[210b27b8-96be-47e1-9de8-1cfa629d9763]
+Description=Hide OBS from captures
+excludefromcapture=true
+excludefromcapturerule=3
+title=OBS 32.1.2 - Profile: Untitled - Scenes: Untitled
+types=1
+wmclass=obs com.obsproject.Studio
+wmclasscomplete=true
+wmclassmatch=1
 
-[b6d3dcb5-2d4c-4850-81bb-8431dd0ab9c5]
+[230fae74-7506-4340-ad9b-32768fd8adfd]
 Description=PiP fix for Wayland
 above=true
 aboverule=2
-title=Picture-in-picture
+noborderrule=2
+position=1376,770
+positionrule=3
+size=534,300
+sizerule=3
+title=Picture-in-Picture
 titlematch=2
 types=1
+
+[710e782e-29cc-4271-ade3-9ee9b7d19384]
+Description=Apply shadows to CSD apps
+noborderrule=2
+types=289
+wmclass=^(steam$|modrinth-app|code)
+wmclassmatch=3
+
+[General]
+count=3
+rules=210b27b8-96be-47e1-9de8-1cfa629d9763,230fae74-7506-4340-ad9b-32768fd8adfd,710e782e-29cc-4271-ade3-9ee9b7d19384

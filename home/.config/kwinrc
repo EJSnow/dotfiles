@@ -1,11 +1,12 @@
 [Effect-blur]
-BlurStrength=3
+BlurStrength=2
 NoiseStrength=0
-Saturation=100
 
 [Effect-glide]
 Duration=250
+InDistance=40
 InRotationAngle=5
+OutDistance=40
 OutRotationAngle=5
 
 [Effect-hidecursor]
@@ -25,10 +26,9 @@ TouchBorderActivate=6
 Magnification=2
 
 [Effect-wobblywindows]
-Drag=90
-ResizeWobble=false
-Stiffness=6
-WobblynessLevel=2
+Drag=85
+Stiffness=10
+WobblynessLevel=1
 
 [ElectricBorders]
 BottomRight=ShowDesktop
@@ -40,11 +40,9 @@ CommandWindow3=Activate, raise and pass click
 
 [NightColor]
 Active=true
-NightTemperature=4000
 
 [Plugins]
 blurEnabled=true
-cubeEnabled=true
 desktopchangeosdEnabled=true
 glideEnabled=true
 hidecursorEnabled=true
@@ -63,18 +61,11 @@ Bottom=ShowDesktop
 Right=ApplicationLauncher
 Top=KRunner
 
-[Wayland]
-VirtualKeyboardEnabled=false
-
 [Windows]
 CenterSnapZone=10
-ElectricBorderCornerRatio=0.15
 FocusStealingPreventionLevel=0
 
-[Xwayland]
-Scale=1.25
-
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=Large
 BorderSizeAuto=false
-ButtonsOnLeft=M
+ButtonsOnLeft=MN

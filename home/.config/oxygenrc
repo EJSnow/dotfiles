@@ -1,0 +1,28 @@
+[ActiveShadow]
+Enabled=false
+
+[Style]
+MenuHighlightMode=MM_SUBTLE
+MnemonicsMode=MN_AUTO
+ScrollBarAddLineButtons=1
+StackedWidgetTransitionsEnabled=true
+WindowDragMode=WD_MINIMAL
+
+[Windeco]
+TitleAlignment=AlignLeft
+
+[Windeco Exception 0]
+BorderSize=0
+Enabled=true
+ExceptionPattern=Picture-in-Picture
+ExceptionType=1
+HideTitleBar=true
+Mask=16
+
+[Windeco Exception 1]
+BorderSize=0
+Enabled=true
+ExceptionPattern=^(steam|discord|modrinth-app)
+ExceptionType=0
+HideTitleBar=true
+Mask=16

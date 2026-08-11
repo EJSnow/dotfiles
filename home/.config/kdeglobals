@@ -5,26 +5,17 @@ XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 
-[Icons]
-Theme=breeze-dark
-
 [KDE]
-AutomaticLookAndFeel=true
-DefaultDarkLookAndFeel=Nord Dark
-DefaultLightLookAndFeel=Nord Light
-LookAndFeelPackage=Nord Light
+LookAndFeelPackage=OxyNord
 ShowDeleteCommand=true
 contrast=10
 frameContrast=0.2
 
 [KFileDialog Settings]
-Allow Expansion=false
+Allow Expansion=true
 Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
@@ -35,10 +26,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=140
-View Style=Detail
-
-[KShortcutsDialog Settings]
-Dialog Size=600,480
+View Style=DetailTree
 
 [Locale]
 BinaryUnitDialect=2

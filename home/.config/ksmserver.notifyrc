@@ -1,0 +1,7 @@
+[Event/locked]
+Action=None|Sound
+Sound=power-unplug
+
+[Event/unlocked]
+Action=None|Sound
+Sound=power-plug

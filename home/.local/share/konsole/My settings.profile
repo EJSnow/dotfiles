@@ -6,10 +6,12 @@ Font=Hack Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 CursorShape=2
 
 [General]
+LocalTabTitleFormat=%w
 Name=My settings
 Parent=FALLBACK/
-TerminalColumns=124
-TerminalRows=42
+TerminalColumns=120
+TerminalMargin=4
+TerminalRows=40
 
 [Interaction Options]
 OpenLinksByDirectClickEnabled=true
