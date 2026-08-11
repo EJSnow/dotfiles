@@ -22,7 +22,7 @@ yay -S --needed bibata-cursor-theme blesh-git btop fastfetch oxygen oxygen5 kwin
 
 3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files. NOTE: This folder might appear to be empty, that's because all the files in it are hidden. Press Ctrl+H in your file manager to show hidden files or on the command line, `ls -a` will show hidden files.
 
-4. Apply the "OxyNord" global theme from KDE system settings. Then sync the settings with PLM. Log out and log back in for changes to fully apply.
+4. Apply the "OxyNord" global theme from KDE system settings with "Desktop and window layout" enabled. Then sync the settings with PLM. Log out and log back in for changes to fully apply.
 
 That's it!
 
