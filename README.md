@@ -17,7 +17,7 @@ i am planning to automate installation via a script but until I figure that out 
 2. Install dependencies (desktop effects/cursor theme/font/etc) (A functional KDE Plasma installation is assumed):
 
 ```
-yay -S --needed bibata-cursor-theme blesh-git btop fastfetch klassy-bin kwin-effects-geometry-change starship ttf-hack-nerd
+yay -S --needed bibata-cursor-theme blesh-git btop fastfetch oxygen oxygen5 kwin-effects-geometry-change starship ttf-hack-nerd
 ```
 
 3. Copy everything inside the `home` folder to your home folder (`~`). If asked, merge/overwrite existing folders/files. NOTE: This folder might appear to be empty, that's because all the files in it are hidden. Press Ctrl+H in your file manager to show hidden files or on the command line, `ls -a` will show hidden files.
