@@ -4,6 +4,11 @@ UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
+fixed=Hack Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=Oxygen,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=Oxygen,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Oxygen,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=Oxygen,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [KDE]
 LookAndFeelPackage=OxyNord
