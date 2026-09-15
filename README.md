@@ -27,3 +27,13 @@ yay -S --needed bibata-cursor-theme blesh-git btop fastfetch oxygen oxygen5 kwin
 That's it!
 
 ![My Arch Linux setup](my-arch-setup.jpg)
+
+## Additional Links
+
+I'm beginning the process of migrating to Fedora KDE (got tired of random KDE apps dying on Arch for NO REASON) and I had to hunt some of these things down as getting them works a little differently on Fedora (particularly ble.sh, as there's no package for it on Fedora). Eventually I'll properly port my configs to Fedora but for now these are handy to get all the dependencies
+
+* [Geometry Change KWin effect (alternate)](https://store.kde.org/p/2136283)
+* [Starship Terminal prompt](https://starship.rs/)
+* [Ble.sh Line Editor](https://github.com/akinomyoga/ble.sh?tab=readme-ov-file)
+* [Oxygen font (Google Fonts)](https://fonts.google.com/specimen/Oxygen)
+* [Oxygen Mono font (possibly switching from Hack)](https://fonts.google.com/specimen/Oxygen+Mono)
